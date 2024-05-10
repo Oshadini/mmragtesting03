@@ -232,7 +232,7 @@ if uploaded_file is not None:
     
         return img_base64_list, image_summaries
     
-    fpath = "./figures"
+    fpath = "figures"
     # Image summaries
     img_base64_list, image_summaries = generate_img_summaries(fpath)  
 
